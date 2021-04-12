@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC15DFBF262472F200A5CF36 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC15DFBE262472F200A5CF36 /* QuestionViewController.swift */; };
+		BC15DFC22624730700A5CF36 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC15DFC12624730700A5CF36 /* ResultsViewController.swift */; };
 		BC8C661E2618A86800EFFF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C661D2618A86800EFFF03 /* AppDelegate.swift */; };
 		BC8C66202618A86800EFFF03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C661F2618A86800EFFF03 /* SceneDelegate.swift */; };
-		BC8C66222618A86800EFFF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C66212618A86800EFFF03 /* ViewController.swift */; };
+		BC8C66222618A86800EFFF03 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C66212618A86800EFFF03 /* IntroductionViewController.swift */; };
 		BC8C66252618A86800EFFF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8C66232618A86800EFFF03 /* Main.storyboard */; };
 		BC8C66272618A86B00EFFF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8C66262618A86B00EFFF03 /* Assets.xcassets */; };
 		BC8C662A2618A86B00EFFF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8C66282618A86B00EFFF03 /* LaunchScreen.storyboard */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC15DFBE262472F200A5CF36 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		BC15DFC12624730700A5CF36 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		BC8C661A2618A86800EFFF03 /* lesson4practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson4practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8C661D2618A86800EFFF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8C661F2618A86800EFFF03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC8C66212618A86800EFFF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC8C66212618A86800EFFF03 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		BC8C66242618A86800EFFF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8C66262618A86B00EFFF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8C66292618A86B00EFFF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,7 +80,9 @@
 		BC8C66352618ECA200EFFF03 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BC8C66212618A86800EFFF03 /* ViewController.swift */,
+				BC8C66212618A86800EFFF03 /* IntroductionViewController.swift */,
+				BC15DFBE262472F200A5CF36 /* QuestionViewController.swift */,
+				BC15DFC12624730700A5CF36 /* ResultsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,12 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8C66222618A86800EFFF03 /* ViewController.swift in Sources */,
+				BC8C66222618A86800EFFF03 /* IntroductionViewController.swift in Sources */,
 				BC8C66332618EC4F00EFFF03 /* Question.swift in Sources */,
 				BC8C661E2618A86800EFFF03 /* AppDelegate.swift in Sources */,
 				BC8C663F2618F70000EFFF03 /* Answer.swift in Sources */,
 				BC8C66202618A86800EFFF03 /* SceneDelegate.swift in Sources */,
+				BC15DFC22624730700A5CF36 /* ResultsViewController.swift in Sources */,
 				BC8C663C2618F61F00EFFF03 /* ResponseType.swift in Sources */,
+				BC15DFBF262472F200A5CF36 /* QuestionViewController.swift in Sources */,
 				BC8C66422618F82C00EFFF03 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

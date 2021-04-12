@@ -31,7 +31,7 @@ extension Question {
                 text: "Дюбите ли вы поездки на машине?",
                 type: .ranged,
                 answers: [
-                    Answer(text:"Ненавижу", type: .dog), //мб поменять местами нужно
+                    Answer(text:"Ненавижу", type: .dog), //мб поменять местами нужно0
                     Answer(text:"Нервничаю", type: .cat),
                     Answer(text:"Не замечаю", type: .rabbit),
                     Answer(text:"Обожаю", type: .turtle)
